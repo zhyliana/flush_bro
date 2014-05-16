@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Orbitron:400,900);
+
+h1, h2, h3, h4, .navbar, .navbar-brand{
+  font-family: 'Orbitron';
+}
+.navbar-btn {
+  color: #999999;
+  background-color: #333333;
+  border: none;
+}
+
+.jumbotron{
+  background: url('http://2.bp.blogspot.com/-fTzI15L9odE/UigCcnBc_sI/AAAAAAAAABw/1U-lmnpbGZM/s1600/Neighbors-movie.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.bro-text{
+  height: 400px;
+  overflow-y: scroll;
+}
+
+
+
+.sidebar {
+  li {
+    border-left: 5px solid white;
+
+  }
+  .active {
+    border-left: 5px solid #eeeeee;
+  }
+}
+
+.img-circle {
+  height: 200px;
+  width: 200px;
+}
+
+#flushbro-carousel img{
+  width: 900px;
+  height: 400px;
+}
